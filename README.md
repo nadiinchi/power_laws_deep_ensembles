@@ -41,7 +41,7 @@ Parameters:
 * --dataset: CIFAR100 / CIFAR10
 * --model: VGG16 / WideResNet28x10
 * --setup: 1 - applying temperature after averaging, 2 - applying temperature before averaging
-* --reg: optimal - minimizing w.r.t. temperature; grid - computing CNLL for each temperature on the grid
+* --reg: optimal - minimizing w.r.t. temperature; grid - computing NLL for each temperature on the grid
 * --comment: additional string to be used in the name of the file containing the results of the run
 
 #### Contents
